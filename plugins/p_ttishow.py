@@ -26,7 +26,7 @@ async def save_group(bot, message):
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
-                text='<b>CHAT NOT ALLOWED 🐞\n\nMy admins has restricted me from working here ! If you want to know more about it contact @IET_Support..</b>',
+                text='<b>CHAT NOT ALLOWED 🐞\n\nMy <a href=https://t.me/IET_Updates>admins</a> has restricted me from working here ! If you want to know more about it contact @IET_Support..</b>',
                 reply_markup=reply_markup,
             )
 
@@ -65,7 +65,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/IET_SUPPORT')
+            InlineKeyboardButton('📞 Support', url=f'https://t.me/IET_SUPPORT')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -103,7 +103,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Succesfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('📞 Support', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
