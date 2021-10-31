@@ -92,8 +92,7 @@ async def next_page(bot, query):
             file_id = file.file_id
             btn.append(
                [InlineKeyboardButton('🌻JOIN MY CHANNEL 🌻', url='http://t.me/MM_MOVIESS')
-               
-    ],[InlineKeyboardButton(text=f"{file.file_name}", callback_data=f'files#{file_id}'), InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'files_#{file_id}')]
+            ],[InlineKeyboardButton(text=f"{file.file_name}", callback_data=f'files#{file_id}'), InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'files_#{file_id}')]
                 )
     if 0 < offset <= 10:
         off_set = 0
