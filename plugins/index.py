@@ -20,7 +20,7 @@ async def index_files(bot, query):
     _, raju, chat, lst_msg_id, from_user = query.data.split("#")
     if raju == 'reject':
         await query.message.delete()
-        await bot.send_message(int(from_user), f'Your Submission for indexing {chat} has been decliened by our moderators.', reply_to_message_id=int(lst_msg_id))
+        await bot.send_message(int(from_user), f'Your Submission for indexing {chat} has been decliened by our moderators [@IET_UPDATES].', reply_to_message_id=int(lst_msg_id))
         return
 
     if lock.locked():
@@ -29,7 +29,7 @@ async def index_files(bot, query):
 
     await query.answer('Processing...⏳', show_alert=True)
     if int(from_user) not in ADMINS:
-        await bot.send_message(int(from_user), f'Your Submission for indexing {chat} has been accepted by our moderators and will be added soon.', reply_to_message_id=int(lst_msg_id))
+        await bot.send_message(int(from_user), f'Your Submission for indexing {chat} has been accepted by our moderators [@IET_UPDATES] and will be added soon.', reply_to_message_id=int(lst_msg_id))
     await msg.edit(
         "Starting Indexing",
         reply_markup = InlineKeyboardMarkup(
@@ -84,7 +84,7 @@ async def send_for_index(bot, message):
         ]
     reply_markup = InlineKeyboardMarkup(buttons)
     await bot.send_message(LOG_CHANNEL, f'#IndexRequest\n\nBy : {message.from_user.mention}\nChat ID/ Username - <code> {chat_id}</code>\nLast Message ID - <code>{last_msg_id}</code>\nInviteLink - {link}', reply_markup=reply_markup)
-    await message.reply('ThankYou For the Contribution, Wait For My Moderators to verify the files.')
+    await message.reply('ThankYou For the Contribution, Wait For My Moderators [@IET_UPDATES] to verify the files.')
         
         
 
