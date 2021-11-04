@@ -363,7 +363,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/MINNALsMURALIBoT?startgroup=true')
+            InlineKeyboardButton('⭕️🔰🌀Lᴀᴛᴇsᴛ  Hᴅ Mᴏᴠɪᴇs🌀🔰⭕️', url='https://t.me/joinchat/ME-pgJrySWg1ZDg1')          InlineKeyboardButton('⭕️🔰🌀Lᴀᴛᴇsᴛ  Hᴅ Mᴏᴠɪᴇs🌀🔰⭕️', url='https://t.me/joinchat/ME-pgJrySWg1ZDg1')
             ],[
             InlineKeyboardButton('🧑‍💻 Owner', url='https://t.me/IET_Owner'),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/IET_Updates')
