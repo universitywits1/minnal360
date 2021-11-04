@@ -26,7 +26,7 @@ async def save_group(bot, message):
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
-                text='<b>CHAT NOT ALLOWED 🐞\n\nMy <a href=https://t.me/IET_Updates>admins</a> has restricted me from working here ! If you want to know more about it contact @Movies360help..</b>',
+                text='<b>CHAT NOT ALLOWED 🐞\n\nMy <a href=https://t.me/Beast_tamil_movie_65>admins</a> has restricted me from working here ! If you want to know more about it contact @Movies360help..</b>',
                 reply_markup=reply_markup,
             )
 
@@ -51,7 +51,7 @@ async def save_group(bot, message):
                     await (temp.MELCOW['welcome']).delete()
                 except:
                     pass
-            temp.MELCOW['welcome'] = await message.reply(f"<b>Hey 🌋, {u.mention}, Welcome to {message.chat.title}</b>\n<i>And Also Join @MM_MOVIESS to Get Files</i>\n <code>Request Movies In Correct Spelling</code>")
+            temp.MELCOW['welcome'] = await message.reply(f"<b>Hey 🌋, {u.mention}, Welcome to {message.chat.title}</b>\n<i>And Also Join @Movie360group to Get Files</i>\n <code>Request Movies In Correct Spelling</code>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
