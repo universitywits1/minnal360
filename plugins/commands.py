@@ -19,14 +19,14 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⭕️🔰🌀Lᴀᴛᴇsᴛ  Hᴅ Mᴏᴠɪᴇs🌀🔰⭕️', url=f'http://t.me/MINNALsMURALIBoT?startgroup=true')
+            InlineKeyboardButton('⭕️🔰🌀Lᴀᴛᴇsᴛ  Hᴅ Mᴏᴠɪᴇs🌀🔰⭕️', url='https://t.me/joinchat/ME-pgJrySWg1ZDg1')
             ],[
             InlineKeyboardButton('🧑‍💻 Owner', url='https://t.me/Movies360help/68'),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/beast_tamil_movie_65')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
-        ]]
+        ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -62,7 +62,7 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay"]:
         buttons = [[
-            InlineKeyboardButton('⭕️🔰🌀Lᴀᴛᴇsᴛ  Hᴅ Mᴏᴠɪᴇs🌀🔰⭕️', url=f'http://t.me/MINNALsMURALIBoT?startgroup=true')
+            InlineKeyboardButton('⭕️🔰🌀Lᴀᴛᴇsᴛ  Hᴅ Mᴏᴠɪᴇs🌀🔰⭕️', url='https://t.me/joinchat/ME-pgJrySWg1ZDg1')
             ],[
             InlineKeyboardButton('🧑‍💻 Owner', url='https://t.me/Movies360help/68'),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/beast_tamil_movie_65')
