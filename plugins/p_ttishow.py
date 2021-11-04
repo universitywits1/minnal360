@@ -26,7 +26,7 @@ async def save_group(bot, message):
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
-                text='<b>CHAT NOT ALLOWED 🐞\n\nMy <a href=https://t.me/IET_Updates>admins</a> has restricted me from working here ! If you want to know more about it contact @IET_Support..</b>',
+                text='<b>CHAT NOT ALLOWED 🐞\n\nMy <a href=https://t.me/IET_Updates>admins</a> has restricted me from working here ! If you want to know more about it contact @Movies360help..</b>',
                 reply_markup=reply_markup,
             )
 
@@ -37,8 +37,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/MINNALsMURALIBoT?start=help"),
-            InlineKeyboardButton('📢 Updates', url='https://t.me/IET_UPDATES')
+            InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/Po_njibot?start=help"),
+            InlineKeyboardButton('📢 Updates', url='https://t.me/Beast_tamil_movie_65')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -65,7 +65,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('📞 Support', url=f'https://t.me/IET_SUPPORT')
+            InlineKeyboardButton('📞 Support', url=f'https://t.me/Movies360help')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -108,7 +108,7 @@ async def disable_chat(bot, message):
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat_, 
-            text=f'<b>Hello Friends, \nMy <a href=https://t.me/IET_Updates>admin</a> has told me to leave from group so i go! If you wanna add me again contact my support group.</b> \nReason : <code>{reason}</code>',
+            text=f'<b>Hello Friends, \nMy <a href=https://t.me/Movies360help>admin</a> has told me to leave from group so i go! If you wanna add me again contact my support group.</b> \nReason : <code>{reason}</code>',
             reply_markup=reply_markup)
         await bot.leave_chat(chat_)
     except Exception as e:
