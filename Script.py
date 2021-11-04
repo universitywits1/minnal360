@@ -12,7 +12,7 @@ class script(object):
 <b>✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂:</b> v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Minnal Murali is a open source project. 
-- Source - <a href=https://t.me/IET_Owner/724>തരൂല..പോയി കണ്ട് പിടിച്ചോ</a>  
+- Source - <a href=https://t.me/Movies360help/68>തരൂല..പോയി കണ്ട് പിടിച്ചോ</a>  
 
 <b>DEVS:</b>
 - <a href=https://t.me/Movies360help/68>Keyzer Soze</a>"""
