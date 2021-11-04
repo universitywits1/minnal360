@@ -19,7 +19,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/MINNALsMURALIBoT?startgroup=true')
+            InlineKeyboardButton('⭕️🔰🌀Lᴀᴛᴇsᴛ  Hᴅ Mᴏᴠɪᴇs🌀🔰⭕️', url=f'http://t.me/MINNALsMURALIBoT?startgroup=true')
             ],[
             InlineKeyboardButton('🧑‍💻 Owner', url='https://t.me/Movies360help/68'),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/beast_tamil_movie_65')
@@ -62,7 +62,7 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/MINNALsMURALIBoT?startgroup=true')
+            InlineKeyboardButton('⭕️🔰🌀Lᴀᴛᴇsᴛ  Hᴅ Mᴏᴠɪᴇs🌀🔰⭕️', url=f'http://t.me/MINNALsMURALIBoT?startgroup=true')
             ],[
             InlineKeyboardButton('🧑‍💻 Owner', url='https://t.me/Movies360help/68'),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/beast_tamil_movie_65')
@@ -75,7 +75,7 @@ async def start(client, message):
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention), 
             reply_markup=reply_markup,
-            parse_mode='html' 
+            parse_mode='html'
         )
         if not await db.is_user_exist(message.from_user.id):
             await db.add_user(message.from_user.id, message.from_user.first_name)
