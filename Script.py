@@ -15,7 +15,7 @@ class script(object):
 - Source - <a href=https://t.me/IET_Owner/724>തരൂല..പോയി കണ്ട് പിടിച്ചോ</a>  
 
 <b>DEVS:</b>
-- <a href=https://t.me/IET_UPDATES>IQBAL K A</a>"""
+- <a href=https://t.me/Movies360help/68>Keyzer Soze</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
