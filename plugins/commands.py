@@ -21,7 +21,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⭕️🔰🌀Lᴀᴛᴇsᴛ  Hᴅ Mᴏᴠɪᴇs🌀🔰⭕️', url='https://t.me/joinchat/ME-pgJrySWg1ZDg1')
             ],[
-            InlineKeyboardButton('🧑‍💻 Owner', url='https://t.me/Movies360help/68'),
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/beast_tamil_movie_65')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
@@ -64,7 +64,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⭕️🔰🌀Lᴀᴛᴇsᴛ  Hᴅ Mᴏᴠɪᴇs🌀🔰⭕️', url='https://t.me/joinchat/ME-pgJrySWg1ZDg1')
             ],[
-            InlineKeyboardButton('🧑‍💻 Owner', url='https://t.me/Movies360help/68'),
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/beast_tamil_movie_65')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
